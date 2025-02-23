@@ -1,0 +1,73 @@
+body {
+  background: url('/immaginehometop.png') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Contenitore principale */
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+
+#root{margin: auto;}
+
+/* Sfondo scuro per migliorare la leggibilità */
+.app-header {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+/* Barra dei pulsanti */
+.app-nav {
+  margin-top: 20px;
+}
+
+.app-nav button {
+  background-color: rgba(255, 255, 255, 0.521);
+  color: rgb(0, 0, 0);
+  border: 2px solid white;
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 19px;
+  transition: all 0.3s ease;
+}
+
+.app-nav button:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.05);
+}
+
+/* Contenitore risultati */
+.result-container {
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.result-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.result-container li {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+/* Messaggio di errore */
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-top: 20px;
+}
